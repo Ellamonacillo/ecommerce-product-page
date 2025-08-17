@@ -54,7 +54,7 @@ const ProductImage = ({ product }) => {
       aria-label={`${direction === 'previous' ? 'Previous' : 'Next'} image`}
     >
       <img 
-        src={`./images/icon-${direction}.svg`} 
+        src={`images/icon-${direction}.svg`} 
         alt={`${direction.charAt(0).toUpperCase() + direction.slice(1)} Icon`} 
         aria-hidden="true" 
       />

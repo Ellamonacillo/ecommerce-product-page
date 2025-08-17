@@ -92,9 +92,9 @@ const Header = ({ cartItems, toggleCart }) => {
               onClick={toggleMenu} 
               aria-label="Toggle mobile navigation menu"
             >
-              <img src="./images/icon-menu.svg" alt="Menu Icon" aria-hidden="true" />
+              <img src="images/icon-menu.svg" alt="Menu Icon" aria-hidden="true" />
             </button>
-            <img src="./images/logo.svg" alt="Sneakers Logo" />
+            <img src="images/logo.svg" alt="Sneakers Logo" />
           </div>
           <div className='space-x-2'>
             {renderButtons()}
@@ -105,7 +105,7 @@ const Header = ({ cartItems, toggleCart }) => {
           <div className='nav-drawer' role="dialog" aria-modal="true">
             <div className='main-drawer'>
               <button type="button" onClick={toggleMenu} className="mb-10" aria-label="Close mobile navigation menu">
-                <img src="./images/icon-close.svg" alt="Close Icon" aria-hidden="true" />
+                <img src="images/icon-close.svg" alt="Close Icon" aria-hidden="true" />
               </button>
               <ul>
                 {renderLinks()}
@@ -119,7 +119,7 @@ const Header = ({ cartItems, toggleCart }) => {
         <div className="nav-desktop">
           <div className="links-group">
             <a href="#" aria-label="Go to homepage">
-              <img src="./images/logo.svg" alt="Sneakers Logo" />
+              <img src="images/logo.svg" alt="Sneakers Logo" />
             </a>
             <ul>
               {renderLinks()}

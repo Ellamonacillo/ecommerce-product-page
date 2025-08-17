@@ -20,7 +20,7 @@ const Cart = ({ cartItems, handleRemove, cartOpen }) => {
                   onClick={() => handleRemove(item.id)} 
                   aria-label={`Remove ${item.name} from cart`}
                 >
-                  <img src="./images/icon-delete.svg" alt="Delete Icon" aria-hidden="true" />
+                  <img src="images/icon-delete.svg" alt="Delete Icon" aria-hidden="true" />
                 </button>
               </div>
               <button type="button" className="checkout-button" aria-label="Proceed to checkout">

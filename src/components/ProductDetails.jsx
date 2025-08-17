@@ -46,7 +46,7 @@ const ProductDetails = ({ product, quantity, setQuantity, addToCart }) => {
       <div className='quantity-buttons'>
         <div className='quantity' role="group" aria-label="Quantity selector">
           <button type="button" onClick={handleMinus} aria-label="Quantity selector" disabled={quantity === 0}>
-            <img src="./images/icon-minus.svg" alt="Minus Icon" aria-hidden="true" />
+            <img src="images/icon-minus.svg" alt="Minus Icon" aria-hidden="true" />
           </button>
           <input 
             type="number" 
@@ -61,12 +61,12 @@ const ProductDetails = ({ product, quantity, setQuantity, addToCart }) => {
             aria-label="Quantity"
           />
           <button type="button" onClick={handleAdd} aria-label="Increase quantity" disabled={quantity === 10}>
-            <img src="./images/icon-plus.svg" alt="Plus Icon" aria-hidden="true" />
+            <img src="images/icon-plus.svg" alt="Plus Icon" aria-hidden="true" />
           </button>
         </div>
       
         <button type="button" onClick={handleAddToCart} disabled={quantity === 0} className='add'>
-          <img src="./images/icon-cart.svg" alt="Cart Icon" aria-hidden="true" />
+          <img src="images/icon-cart.svg" alt="Cart Icon" aria-hidden="true" />
           <h4>Add to cart</h4>
         </button>
       </div>

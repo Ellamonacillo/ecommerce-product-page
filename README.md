@@ -23,8 +23,8 @@ E-commerce Product Page Solution
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/Ellamonacillo/ecommerce-product-page.github.io)
+- Live Site URL: [Github Pages](https://ellamonacillo.github.io/ecommerce-product-page.github.io/)
 
 
 ### Built with
