@@ -18,7 +18,7 @@ E-commerce Product Page Solution
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](images/screenshot.png)
 
 
 ### Links
