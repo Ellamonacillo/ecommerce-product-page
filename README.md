@@ -24,7 +24,7 @@ E-commerce Product Page Solution
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/Ellamonacillo/ecommerce-product-page.github.io)
-- Live Site URL: [Github Pages](https://ellamonacillo.github.io/ecommerce-product-page.github.io/)
+- Live Site URL: [Netlify](https://ecommerce-product-page-solution.netlify.app/)
 
 
 ### Built with
